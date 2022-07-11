@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.app{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.header
+{
+    display: block;
+    margin: auto;
+    border:1px solid black;
+    padding: 20px;
+    font-size: xx-large;
+    color: white;
+}
+.container
+{
+    display:block;
+    margin: auto;
+    border: 1px solid white;
+    color: aliceblue;
+    height: 80%;
+    width: 50%;
+}   
+.message{
+    display:flex;
+    border:1px solid white;
+    margin: 8px;
+    padding:8px;
+    width: 50%;
+}
+.left{
+    float: left;
+    clear:both;
+}
+.right{
+    float:right;
+    clear:both;
+}
+.send-container{
+    position: absolute;
+    bottom: 3%;
+}
