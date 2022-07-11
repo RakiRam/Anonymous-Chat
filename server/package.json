@@ -7,7 +7,7 @@
     "dev": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ram and sanjay",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
