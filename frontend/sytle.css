@@ -43,3 +43,7 @@ body{
     position: absolute;
     bottom: 3%;
 }
+#msg{
+    width: 20rem;
+    margin-left: 36rem
+}
