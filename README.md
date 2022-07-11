@@ -1,2 +1,3 @@
 # Anonymous-Chat
-Anonymous Chat Website Open to contribute
+Anonymous Chat Website
+Open to contribute
