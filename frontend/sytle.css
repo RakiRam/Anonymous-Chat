@@ -10,10 +10,12 @@ body{
 {
     display: block;
     margin: auto;
+    align-items: center;
     border:1px solid black;
     padding: 20px;
     font-size: xx-large;
     color: white;
+    width: 30%;
 }
 .container
 {
@@ -31,6 +33,7 @@ body{
     margin: 8px;
     padding:8px;
     width: 50%;
+    display: inline-block;
     word-wrap: break-word;
     
 }
