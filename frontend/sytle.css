@@ -23,7 +23,7 @@ body{
     color: aliceblue;
     height: 80%;
     width: 50%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }   
 .message{
     display:flex;
