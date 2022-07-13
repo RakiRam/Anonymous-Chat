@@ -24,7 +24,7 @@ body{
     /* border: 1px solid white; */
     color: aliceblue;
     height: 80%;
-    width: 50%;
+    width: 40%;
     overflow-y: auto;
 }   
 .message{
@@ -56,7 +56,13 @@ body{
 
 }
 #msg{
-    width: 70%;
+    width: 55%;
     border: 2px solid black;
     height: 28px;
+}
+#submit{
+    cursor: pointer;
+    border: 2px solid black;
+    height: 25px;
+    width: 50px;
 }
