@@ -19,7 +19,7 @@ body{
 {
     display:block;
     margin: auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     color: aliceblue;
     height: 80%;
     width: 50%;
@@ -31,6 +31,7 @@ body{
     margin: 8px;
     padding:8px;
     width: 50%;
+    
 }
 .left{
     float: left;
@@ -41,10 +42,17 @@ body{
     clear:both;
 }
 .send-container{
-    position: absolute;
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    /* position: absolute; */
     bottom: 3%;
+
 }
 #msg{
-    width: 20rem;
-    margin-left: 36rem
+    width: 70%;
+    border: 2px solid black;
+    height: 28px;
 }
