@@ -27,10 +27,11 @@ body{
 }   
 .message{
     display:flex;
-    border:1px solid white;
+    /* border:1px solid white; */
     margin: 8px;
     padding:8px;
     width: 50%;
+    word-wrap: break-word;
     
 }
 .left{
