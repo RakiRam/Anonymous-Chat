@@ -25,8 +25,11 @@ body{
     color: aliceblue;
     height: 80%;
     width: 40%;
-    overflow-y: auto;
-}   
+    overflow-y: scroll;
+}  
+.container::-webkit-scrollbar{
+    display: none;
+} 
 .message{
     display:flex;
     /* border:1px solid white; */
