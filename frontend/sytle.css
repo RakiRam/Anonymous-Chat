@@ -24,7 +24,7 @@ body{
     /* border: 1px solid white; */
     color: aliceblue;
     height: 80%;
-    width: 40%;
+    width: 60%;
     overflow-y: scroll;
 }  
 .container::-webkit-scrollbar{
