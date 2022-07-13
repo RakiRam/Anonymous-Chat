@@ -4,12 +4,19 @@ const form = document.getElementById('send');
 const messageInput = document.getElementById('msg');
 const messageContainer = document.querySelector(".container");
 
+var audio = new Audio("notification.mp3");
+
 const append = (message, position) => {
     const messageElement = document.createElement('div');
     messageElement.innerText = message;
     messageElement.classList.add('message');
     messageElement.classList.add(position);
     messageContainer.append(messageElement);
+
+    if(position == 'left')
+    {
+        audio.play();
+    }
 }
 
 form.addEventListener('submit', (e)=>{
