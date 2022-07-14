@@ -23,10 +23,12 @@ body{
     margin: auto;
     /* border: 1px solid white; */
     color: aliceblue;
-    height: 80%;
+    height: 73%;
     width: 60%;
     overflow-y: scroll;
-}  
+    padding-bottom: 50px;
+} 
+
 .container::-webkit-scrollbar{
     display: none;
 } 
