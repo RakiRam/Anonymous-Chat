@@ -5,7 +5,10 @@ const messageInput = document.getElementById('msg');
 const messageContainer = document.querySelector(".container");
 
 var audio = new Audio("notification.mp3");
-
+function scrolltodown(){
+    var chatbox = document.querySelector(".container");
+    chatbox.scrollTop = chatbox.scrollHeight;
+}
 const append = (message, position) => {
     const messageElement = document.createElement('div');
     messageElement.innerText = message;
@@ -31,14 +34,17 @@ const name=prompt("Enter your name to join");
 socket.emit('new-user-joined', name);
 socket.on('user-joined', name=>{
     append(`${name} joined the chat`,'right');
+    scrolltodown();
 })
 
 socket.on('recieve', data=>{
     console.log(data);
-    append(`${data.name}:${data.message}`,'left')
+    append(`${data.name}:${data.message}`,'left');
+    scrolltodown();
 })
 
 socket.on('left', name=>{
     console.log(name);
-    append(`${name} left the chat`,'left')
+    append(`${name} left the chat`,'left');
+    scrolltodown();
 })
