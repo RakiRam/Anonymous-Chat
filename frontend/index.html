@@ -3,9 +3,18 @@
         <link rel="stylesheet" href="./sytle.css">
         <script defer src="https://thawing-waters-89796.herokuapp.com/socket.io/socket.io.js"></script>
         <script defer src="./script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <title>Anonymous Chat</title>
         <link rel="shortcut icon" href="icon.jpg" type="image/x-icon"> 
+        <script>
+            function scrolltodown(){
+                var chatbox = document.querySelector(".container");
+                        chatbox.scrollTop = chatbox.scrollHeight;
+            }
+            
+        </script>
     </head>
+
     <body>
         <div class="app">
             <div class="header">
@@ -19,7 +28,7 @@
                     <form action="#" id="send">
                         <input type="text" name="msg" id="msg">
                         <!-- <audio id="tone" src="notification.mp3" preload="auto"></audio> -->
-                        <input type="submit" value="send" id="submit">
+                        <input type="submit" value="send" id="submit" onclick="scrolltodown();">
                     </form>
             </div>
         </div>
