@@ -1,4 +1,4 @@
-const socket = io('https://thawing-waters-89796.herokuapp.com/');
+const socket = io('https://anonymous-chat-server-9lcd.onrender.com');
 
 const form = document.getElementById('send');
 const messageInput = document.getElementById('msg');
